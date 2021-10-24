@@ -4,23 +4,24 @@
   <meta charset="utf-8">
   
   
-  <title>c语言的简单的数据类型 | Hexo</title>
+  <title>c语言一些简单的数据类型 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="1.整型 2.浮点型3.字符型">
+  <meta name="description" content="一.整型    补充：8个位（Bit）组成一个字节（Byte） 二.浮点型   1.float：单精度、32位  float 在储存大型浮点数组的时候可节省内存空间  浮点数不能用来表示精确的值  2.double：双精度、64位  浮点数的默认类型为double类型  double类型同样不能表示精确的值   ​    补充：如果存储比精度更重要，请考虑对浮点变量使用 float 类型。相反，如">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c语言的简单的数据类型">
+<meta property="og:title" content="c语言一些简单的数据类型">
 <meta property="og:url" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1.整型 2.浮点型3.字符型">
+<meta property="og:description" content="一.整型    补充：8个位（Bit）组成一个字节（Byte） 二.浮点型   1.float：单精度、32位  float 在储存大型浮点数组的时候可节省内存空间  浮点数不能用来表示精确的值  2.double：双精度、64位  浮点数的默认类型为double类型  double类型同样不能表示精确的值   ​    补充：如果存储比精度更重要，请考虑对浮点变量使用 float 类型。相反，如">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/blog/source_posts/c语言的简单的数据类型/1.jpg">
+<meta property="og:image" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/1.jpg">
+<meta property="og:image" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/2.jpeg">
 <meta property="article:published_time" content="2021-10-04T15:07:51.000Z">
-<meta property="article:modified_time" content="2021-10-24T09:11:49.871Z">
+<meta property="article:modified_time" content="2021-10-24T11:22:18.277Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="博客">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/blog/source_posts/c语言的简单的数据类型/1.jpg">
+<meta name="twitter:image" content="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/1.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -95,7 +96,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      c语言的简单的数据类型
+      c语言一些简单的数据类型
     </h1>
   
 
@@ -103,14 +104,37 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>1.整型<br> <img src="/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/blog\source_posts\c语言的简单的数据类型\1.jpg"><br>2.浮点型<br>3.字符型</p>
+        <p>一.整型<br> <img src="/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/1.jpg"></p>
+<p>  补充：8个位（Bit）组成一个字节（Byte）</p>
+<p>二.浮点型</p>
+<p>  1.float：单精度、32位</p>
+<ul>
+<li><p>float 在储存大型浮点数组的时候可节省内存空间</p>
+</li>
+<li><p>浮点数不能用来表示精确的值</p>
+<p> 2.double：双精度、64位</p>
+</li>
+<li><p>浮点数的默认类型为double类型</p>
+</li>
+<li><p>double类型同样不能表示精确的值</p>
+</li>
+</ul>
+<p>​    补充：如果存储比精度更重要，请考虑对浮点变量使用 float 类型。相反，如果精度是最重要的条件，则使用 double 类型。无论是单精度（32位），还是双精度（64位），在 内存存储中都分为3个部分： </p>
+<p>① 符号位：0代表正，1代表为负； </p>
+<p>② 指数位：用于存储科学计数法中的指数数据，采用移 位存储方式； </p>
+<p>③ 尾数部分：尾数部分，规范化形式</p>
+<p>三.字符型</p>
+<p>char：char与int/long等不同，是 一个单一的16位 Unicode 字符</p>
+<p>char数据类型可以存储任何字符</p>
+<p>系统在表示一个字符型数据时，并不是将字符本身的形状存入内存，而只是将字符的ASCII码存入内存，在内存中所有的数据都是以二进制的形式存放的。</p>
+<p>  补充：ASCII码<img src="/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/2.jpeg"></p>
 <span id="more"></span>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" data-id="ckv50lgv60000xku7gcfmat1m" data-title="c语言的简单的数据类型" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" data-id="ckv55ue660001n4u75nu319i2" data-title="c语言一些简单的数据类型" class="article-share-link">Share</a>
       
       
       
@@ -184,7 +208,7 @@
       <ul>
         
           <li>
-            <a href="/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">c语言的简单的数据类型</a>
+            <a href="/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">c语言一些简单的数据类型</a>
           </li>
         
           <li>
