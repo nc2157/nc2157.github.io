@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-10-24T11:22:18.277Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言一些简单的数据类型</title>
+    <link href="http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2021-10-04T15:07:51.000Z</published>
+    <updated>2021-10-24T11:22:18.277Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一.整型&lt;br&gt; &lt;img src=&quot;/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/1.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;  补充：8个位（Bit）组成一个字节（Byte）&lt;/p&gt;
+&lt;p&gt;二.浮点型&lt;/p&gt;
+&lt;p&gt;  1.float：单精度、32位&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;float 在储存大型浮点数组的时候可节省内存空间&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;浮点数不能用来表示精确的值&lt;/p&gt;
+&lt;p&gt; 2.double：双精度、64位&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;浮点数的默认类型为double类型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;double类型同样不能表示精确的值&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​    补充：如果存储比精度更重要，请考虑对浮点变量使用 float 类型。相反，如果精度是最重要的条件，则使用 double 类型。无论是单精度（32位），还是双精度（64位），在 内存存储中都分为3个部分： &lt;/p&gt;
+&lt;p&gt;① 符号位：0代表正，1代表为负； &lt;/p&gt;
+&lt;p&gt;② 指数位：用于存储科学计数法中的指数数据，采用移 位存储方式； &lt;/p&gt;
+&lt;p&gt;③ 尾数部分：尾数部分，规范化形式&lt;/p&gt;
+&lt;p&gt;三.字符型&lt;/p&gt;
+&lt;p&gt;char：char与int/long等不同，是 一个单一的16位 Unicode 字符&lt;/p&gt;
+&lt;p&gt;char数据类型可以存储任何字符&lt;/p&gt;
+&lt;p&gt;系统在表示一个字符型数据时，并不是将字符本身的形状存入内存，而只是将字符的ASCII码存入内存，在内存中所有的数据都是以二进制的形式存放的。&lt;/p&gt;
+&lt;p&gt;  补充：ASCII码&lt;img src=&quot;/2021/10/04/c%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/2.jpeg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web前端" scheme="http://example.com/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初</title>
+    <link href="http://example.com/2021/09/21/%E5%88%9D/"/>
+    <id>http://example.com/2021/09/21/%E5%88%9D/</id>
+    <published>2021-09-21T14:41:29.000Z</published>
+    <updated>2021-09-22T02:57:31.226Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;经历了许多坎坷，终于发布了属于自己的第一篇博文，我将之命名为“初”，因为在此之前从未接触过这方面内容，所以说这对于我来说是一个全新的邻域，还有着许多未知的东西等着我去探索，这段新的征程我相信一定会很有趣，最后希望自己不要迷茫，希望明天永远比今天更好!&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web前端" scheme="http://example.com/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/09/20/hello-world/"/>
+    <id>http://example.com/2021/09/20/hello-world/</id>
+    <published>2021-09-20T09:36:39.783Z</published>
+    <updated>2021-09-20T09:36:39.783Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
